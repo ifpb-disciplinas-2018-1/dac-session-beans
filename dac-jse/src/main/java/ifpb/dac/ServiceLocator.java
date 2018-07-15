@@ -15,7 +15,7 @@ import javax.naming.NamingException;
  */
 public class ServiceLocator {
 
-    private static final String SERVICE_REMOTE = "java:global/dac-stateless/ExemploServiceRemoto";
+    private static final String SERVICE_REMOTE = "java:global/dac-core/ExemploServiceRemoto";
 
     public <T> T lookup() {
         try {

@@ -1,4 +1,4 @@
-package ifpb.dac.service.stateful;
+package ifpb.dac.carrinho;
 
 import java.util.ArrayList;
 import java.util.Collections;

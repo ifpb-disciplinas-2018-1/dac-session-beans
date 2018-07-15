@@ -20,7 +20,7 @@ public class ServletCliente extends HttpServlet {
 //    @Inject
 //    @EJB
 //    private ExemploServiceLocal service;// = new ExemploServiceLocal();
-    @EJB(lookup = "java:global/dac-stateless/SegundoExemploServiceLocalComInterface")
+    @EJB(lookup = "java:global/dac-core/SegundoExemploServiceLocalComInterface")
     private ServiceLocal service;
 //    @EJB
 //    private ServiceRemote service;

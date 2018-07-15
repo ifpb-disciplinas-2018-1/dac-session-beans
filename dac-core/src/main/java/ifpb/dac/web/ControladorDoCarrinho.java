@@ -1,6 +1,6 @@
 package ifpb.dac.web;
 
-import ifpb.dac.service.stateful.CarrinhoDeCompras;
+import ifpb.dac.carrinho.CarrinhoDeCompras;
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.List;
